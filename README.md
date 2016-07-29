@@ -1,8 +1,8 @@
 # unicode-normalizer package
 
-normalize Unicode charactors.
+Normalize Unicode charactors.
 
-see [Unicode equivalence](https://en.wikipedia.org/wiki/Unicode_equivalence) for more detail.
+See [Unicode equivalence](https://en.wikipedia.org/wiki/Unicode_equivalence) for more details.
 
 ##Functions
 
