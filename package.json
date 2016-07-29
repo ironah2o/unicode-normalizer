@@ -1,0 +1,24 @@
+{
+  "name": "unicode-normalizer",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Unicode Normalizer for Atom",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-text-editor":[
+      "unicode-normalizer:convert-to-NFC",
+      "unicode-normalizer:convert-to-NFKC",
+      "unicode-normalizer:convert-to-NFD",
+      "unicode-normalizer:convert-to-NFKD"
+    ]
+  },
+  "repository": "https://github.com/atom/unicode-normalizer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.4.0 <2.0.0"
+  },
+  "dependencies": {
+    "unorm":"1.4.1"
+  }
+}

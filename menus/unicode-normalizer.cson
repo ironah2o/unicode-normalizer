@@ -1,0 +1,26 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Unicode Normalizer'
+      'submenu': [
+        {
+          'label': 'Canonical Composition (NFC)'
+          'command': 'unicode-normalizer:convert-to-NFC'
+        }
+        {
+          'label': 'Compatibility Composition (NFKC)'
+          'command': 'unicode-normalizer:convert-to-NFKC'
+        }
+        {
+          'label': 'Canonical Decomposition (NFD)'
+          'command': 'unicode-normalizer:convert-to-NFD'
+        }
+        {
+          'label': 'Compatibility Decomposition (NFKD)'
+          'command': 'unicode-normalizer:convert-to-NFKD'
+        }
+      ]
+    ]
+  }
+]
