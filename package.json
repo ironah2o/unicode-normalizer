@@ -3,7 +3,12 @@
   "main": "./lib/main",
   "version": "0.2.0",
   "description": "Unicode Normalizer for Atom",
-  "keywords": [],
+  "keywords": [
+    "Unicode equivalence",
+    "normalize"
+    "NFC",
+    "NFD",
+  ],
   "activationCommands": {
     "atom-text-editor": [
       "unicode-normalizer:convert-to-NFC",
