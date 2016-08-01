@@ -5,9 +5,9 @@
   "description": "Unicode Normalizer for Atom",
   "keywords": [
     "Unicode equivalence",
-    "normalize"
+    "normalize",
     "NFC",
-    "NFD",
+    "NFD"
   ],
   "activationCommands": {
     "atom-text-editor": [
